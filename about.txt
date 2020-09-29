@@ -1,0 +1,8 @@
+This application allow you to save your 
+errors, bugs and problems, along with 
+their solutions, whether it be some code 
+you figured out, a link to: a youtube video,
+an article, or stackoverflow. Both are then 
+saved in a csv file in the same row, with 
+the problem under a column named problems 
+and solutions under a column named solutions.

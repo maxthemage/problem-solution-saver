@@ -15,5 +15,7 @@ article, or stackoverflow. It can even be a short statement explaining your answ
 
 ## Note:
 
+The Prolution.py file was added to show the code that was used to build the main application. The executable file should be used instead.
+
 This is not final product, more features are going to be added in the future.
 

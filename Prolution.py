@@ -21,7 +21,7 @@ def addProb():
             os.chdir(path)
             with open(main_file, "w") as file:
                 writer = csv.writer(file)
-                writer.writerow(["Problem", "Solution", "Date logged"])
+                writer.writerow(["PROBLEM", "SOLUTION", "DATE LOGGED"])
                 writer.writerow([prob.title(), sol, date])
                 messagebox.showinfo("Prolution", "Problem and Solution were added")
         else:
@@ -34,13 +34,13 @@ def addProb():
             if not os.path.exists(main_file):
                 with open(main_file, "w") as file:
                     writer = csv.writer(file)
-                    writer.writerow(["Problem", "Solution", "Date logged"])
+                    writer.writerow(["PROBLEM", "SOLUTION", "DATE LOGGED"])
                     writer.writerow([prob.title(), sol, date])
                     messagebox.showinfo("Prolution", "Problem and Solution were added")
             elif os.path.getsize(main_file) == 0:
                 with open(main_file, "w") as file:
                     writer = csv.writer(file)
-                    writer.writerow(["Problem", "Solution", "Date logged"])
+                    writer.writerow(["PROBLEM", "SOLUTION", "DATE LOGGED"])
                     writer.writerow([prob.title(), sol, date])
                     messagebox.showinfo("Prolution", "Problem and Solution were added")
             else:
